@@ -5,59 +5,47 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/FugaFugaNameSpace.FugaFugaDataInNameSpace.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/FugaFugaNameSpace.FugaFugaDataInNameSpace.html",
-          "hash": "VQQmkyFW5TtwpCvQh/Tpcw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.html",
-          "hash": "K+3nX/n0f48ZhUDGNgNmNA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/FugaFugaNameSpace.FugaFugaNestedNameSpace.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/FugaFugaNameSpace.FugaFugaNestedNameSpace.html",
-          "hash": "yGPnwadoKJRhU+YnN/1a6w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/FugaFugaNameSpace.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/FugaFugaNameSpace.html",
-          "hash": "gRwZ8hO+DgfbNLqMuaQczQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/MyPlugin.FugaData.yml",
       "output": {
         ".html": {
           "relative_path": "api/MyPlugin.FugaData.html",
-          "hash": "X58GiwbTVQxq2hMYwjeuow=="
+          "hash": "SS7pdiPZQxlhmNpHBvwzhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyPlugin.FugaFugaDataInNameSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyPlugin.FugaFugaDataInNameSpace.html",
+          "hash": "KYVOlRisAuMPnLHdw8m6/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyPlugin.NestedNameSpace.FugaFugaDataInNestedNameSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyPlugin.NestedNameSpace.FugaFugaDataInNestedNameSpace.html",
+          "hash": "a9T0Bp1jV6Dr/WIFqUdygw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyPlugin.NestedNameSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyPlugin.NestedNameSpace.html",
+          "hash": "SaH1+Ifcf9EUKK9jCPiaDQ=="
         }
       },
       "is_incremental": false,
@@ -81,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MyPlugin.html",
-          "hash": "Ev46PzSl3uQvnbxOMklyjw=="
+          "hash": "IEh3aENn77g8uY4E6uoixw=="
         }
       },
       "is_incremental": false,
@@ -93,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/docfxSample.HogeComponent.html",
-          "hash": "xrxF/GyWxnLIzSuwUWseKg=="
+          "hash": "jQXLizqYcEoczJGGwuDJBg=="
         }
       },
       "is_incremental": false,
@@ -129,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "O0RXPU03ySUasTXPQT+A+A=="
+          "hash": "X40o2lXlm3VLDejr9vAd5Q=="
         }
       },
       "is_incremental": false,
@@ -193,12 +181,11 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 8,
+          "skipped_file_count": 2
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
@@ -206,11 +193,12 @@
           "total_file_count": 3,
           "skipped_file_count": 3
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 9,
-          "skipped_file_count": 2
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
