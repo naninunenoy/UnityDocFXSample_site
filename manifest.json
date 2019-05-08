@@ -12,7 +12,7 @@
           "hash": "SS7pdiPZQxlhmNpHBvwzhQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "4InQiu+VHsoOWiJSJ2SY6w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "Ev46PzSl3uQvnbxOMklyjw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MyPlugin2.FugaDataInOtherNameSpace.html",
-          "hash": "RvOJnx+ri/SD+wX2dVDa+g=="
+          "hash": "rOdIaJX1cyeJIZLz3Y7plA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MyPlugin2.NestedNameSpace.FugaDataInNestedNameSpace.html",
-          "hash": "+6nwAhINj3LTCreLIhGqTQ=="
+          "hash": "/sZAXReEZIej+iN+m3qJwg=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/docfxSample.HogeComponent.html",
-          "hash": "jQXLizqYcEoczJGGwuDJBg=="
+          "hash": "UWglILklHCXTv7SAnargFg=="
         }
       },
       "is_incremental": false,
@@ -120,7 +120,7 @@
           "hash": "Ik+tEmFuoR+L2tAj9kwkBg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -200,17 +200,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 6
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
           "skipped_file_count": 3
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 9,
-          "skipped_file_count": 4
         }
       }
     },
