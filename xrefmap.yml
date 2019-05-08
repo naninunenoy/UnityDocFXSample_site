@@ -13,11 +13,11 @@ references:
   commentId: T:docfxSample.HogeComponent
   fullName: docfxSample.HogeComponent
   nameWithType: HogeComponent
-- uid: docfxSample.HogeComponent.Init(FugaData,PiyoType)
+- uid: docfxSample.HogeComponent.Init(MyPlugin.FugaData,MyPlugin.PiyoType)
   name: Init(FugaData, PiyoType)
-  href: api/docfxSample.HogeComponent.html#docfxSample_HogeComponent_Init_FugaData_PiyoType_
-  commentId: M:docfxSample.HogeComponent.Init(FugaData,PiyoType)
-  fullName: docfxSample.HogeComponent.Init(FugaData, PiyoType)
+  href: api/docfxSample.HogeComponent.html#docfxSample_HogeComponent_Init_MyPlugin_FugaData_MyPlugin_PiyoType_
+  commentId: M:docfxSample.HogeComponent.Init(MyPlugin.FugaData,MyPlugin.PiyoType)
+  fullName: docfxSample.HogeComponent.Init(MyPlugin.FugaData, MyPlugin.PiyoType)
   nameWithType: HogeComponent.Init(FugaData, PiyoType)
 - uid: docfxSample.HogeComponent.Init*
   name: Init
@@ -65,6 +65,82 @@ references:
   isSpec: "True"
   fullName: docfxSample.HogeComponent.Update
   nameWithType: HogeComponent.Update
+- uid: FugaFugaNameSpace
+  name: FugaFugaNameSpace
+  href: api/FugaFugaNameSpace.html
+  commentId: N:FugaFugaNameSpace
+  fullName: FugaFugaNameSpace
+  nameWithType: FugaFugaNameSpace
+- uid: FugaFugaNameSpace.FugaFugaDataInNameSpace
+  name: FugaFugaDataInNameSpace
+  href: api/FugaFugaNameSpace.FugaFugaDataInNameSpace.html
+  commentId: T:FugaFugaNameSpace.FugaFugaDataInNameSpace
+  fullName: FugaFugaNameSpace.FugaFugaDataInNameSpace
+  nameWithType: FugaFugaDataInNameSpace
+- uid: FugaFugaNameSpace.FugaFugaDataInNameSpace.Message
+  name: Message
+  href: api/FugaFugaNameSpace.FugaFugaDataInNameSpace.html#FugaFugaNameSpace_FugaFugaDataInNameSpace_Message
+  commentId: P:FugaFugaNameSpace.FugaFugaDataInNameSpace.Message
+  fullName: FugaFugaNameSpace.FugaFugaDataInNameSpace.Message
+  nameWithType: FugaFugaDataInNameSpace.Message
+- uid: FugaFugaNameSpace.FugaFugaDataInNameSpace.Message*
+  name: Message
+  href: api/FugaFugaNameSpace.FugaFugaDataInNameSpace.html#FugaFugaNameSpace_FugaFugaDataInNameSpace_Message_
+  commentId: Overload:FugaFugaNameSpace.FugaFugaDataInNameSpace.Message
+  isSpec: "True"
+  fullName: FugaFugaNameSpace.FugaFugaDataInNameSpace.Message
+  nameWithType: FugaFugaDataInNameSpace.Message
+- uid: FugaFugaNameSpace.FugaFugaDataInNameSpace.Number
+  name: Number
+  href: api/FugaFugaNameSpace.FugaFugaDataInNameSpace.html#FugaFugaNameSpace_FugaFugaDataInNameSpace_Number
+  commentId: P:FugaFugaNameSpace.FugaFugaDataInNameSpace.Number
+  fullName: FugaFugaNameSpace.FugaFugaDataInNameSpace.Number
+  nameWithType: FugaFugaDataInNameSpace.Number
+- uid: FugaFugaNameSpace.FugaFugaDataInNameSpace.Number*
+  name: Number
+  href: api/FugaFugaNameSpace.FugaFugaDataInNameSpace.html#FugaFugaNameSpace_FugaFugaDataInNameSpace_Number_
+  commentId: Overload:FugaFugaNameSpace.FugaFugaDataInNameSpace.Number
+  isSpec: "True"
+  fullName: FugaFugaNameSpace.FugaFugaDataInNameSpace.Number
+  nameWithType: FugaFugaDataInNameSpace.Number
+- uid: FugaFugaNameSpace.FugaFugaNestedNameSpace
+  name: FugaFugaNameSpace.FugaFugaNestedNameSpace
+  href: api/FugaFugaNameSpace.FugaFugaNestedNameSpace.html
+  commentId: N:FugaFugaNameSpace.FugaFugaNestedNameSpace
+  fullName: FugaFugaNameSpace.FugaFugaNestedNameSpace
+  nameWithType: FugaFugaNameSpace.FugaFugaNestedNameSpace
+- uid: FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace
+  name: FugaFugaDataInNestedNameSpace
+  href: api/FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.html
+  commentId: T:FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace
+  fullName: FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace
+  nameWithType: FugaFugaDataInNestedNameSpace
+- uid: FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Message
+  name: Message
+  href: api/FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.html#FugaFugaNameSpace_FugaFugaNestedNameSpace_FugaFugaDataInNestedNameSpace_Message
+  commentId: P:FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Message
+  fullName: FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Message
+  nameWithType: FugaFugaDataInNestedNameSpace.Message
+- uid: FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Message*
+  name: Message
+  href: api/FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.html#FugaFugaNameSpace_FugaFugaNestedNameSpace_FugaFugaDataInNestedNameSpace_Message_
+  commentId: Overload:FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Message
+  isSpec: "True"
+  fullName: FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Message
+  nameWithType: FugaFugaDataInNestedNameSpace.Message
+- uid: FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Number
+  name: Number
+  href: api/FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.html#FugaFugaNameSpace_FugaFugaNestedNameSpace_FugaFugaDataInNestedNameSpace_Number
+  commentId: P:FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Number
+  fullName: FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Number
+  nameWithType: FugaFugaDataInNestedNameSpace.Number
+- uid: FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Number*
+  name: Number
+  href: api/FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.html#FugaFugaNameSpace_FugaFugaNestedNameSpace_FugaFugaDataInNestedNameSpace_Number_
+  commentId: Overload:FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Number
+  isSpec: "True"
+  fullName: FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.Number
+  nameWithType: FugaFugaDataInNestedNameSpace.Number
 - uid: MyPlugin
   name: MyPlugin
   href: api/MyPlugin.html
@@ -134,6 +210,19 @@ references:
   isSpec: "True"
   fullName: MyPlugin.FugaData.ToString
   nameWithType: FugaData.ToString
+- uid: MyPlugin.FugaData.二バイト文字も行けるか
+  name: 二バイト文字も行けるか()
+  href: api/MyPlugin.FugaData.html#MyPlugin_FugaData____________
+  commentId: M:MyPlugin.FugaData.二バイト文字も行けるか
+  fullName: MyPlugin.FugaData.二バイト文字も行けるか()
+  nameWithType: FugaData.二バイト文字も行けるか()
+- uid: MyPlugin.FugaData.二バイト文字も行けるか*
+  name: 二バイト文字も行けるか
+  href: api/MyPlugin.FugaData.html#MyPlugin_FugaData_____________
+  commentId: Overload:MyPlugin.FugaData.二バイト文字も行けるか
+  isSpec: "True"
+  fullName: MyPlugin.FugaData.二バイト文字も行けるか
+  nameWithType: FugaData.二バイト文字も行けるか
 - uid: MyPlugin.PiyoType
   name: PiyoType
   href: api/MyPlugin.PiyoType.html

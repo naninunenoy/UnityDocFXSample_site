@@ -5,11 +5,59 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FugaFugaNameSpace.FugaFugaDataInNameSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FugaFugaNameSpace.FugaFugaDataInNameSpace.html",
+          "hash": "VQQmkyFW5TtwpCvQh/Tpcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FugaFugaNameSpace.FugaFugaNestedNameSpace.FugaFugaDataInNestedNameSpace.html",
+          "hash": "K+3nX/n0f48ZhUDGNgNmNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FugaFugaNameSpace.FugaFugaNestedNameSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FugaFugaNameSpace.FugaFugaNestedNameSpace.html",
+          "hash": "yGPnwadoKJRhU+YnN/1a6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FugaFugaNameSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FugaFugaNameSpace.html",
+          "hash": "gRwZ8hO+DgfbNLqMuaQczQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MyPlugin.FugaData.yml",
       "output": {
         ".html": {
           "relative_path": "api/MyPlugin.FugaData.html",
-          "hash": "34ODG+XSICOTbJabWZcCvg=="
+          "hash": "X58GiwbTVQxq2hMYwjeuow=="
         }
       },
       "is_incremental": false,
@@ -45,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/docfxSample.HogeComponent.html",
-          "hash": "pPqT/k9ogglDwJfUpArS+w=="
+          "hash": "xrxF/GyWxnLIzSuwUWseKg=="
         }
       },
       "is_incremental": false,
@@ -81,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "59sR1JUixIV03iy2Fjvwpw=="
+          "hash": "O0RXPU03ySUasTXPQT+A+A=="
         }
       },
       "is_incremental": false,
@@ -152,17 +200,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 1
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
           "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 2
         }
       }
     },
