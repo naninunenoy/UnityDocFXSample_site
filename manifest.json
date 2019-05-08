@@ -17,42 +17,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MyPlugin.FugaFugaDataInNameSpace.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MyPlugin.FugaFugaDataInNameSpace.html",
-          "hash": "KYVOlRisAuMPnLHdw8m6/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MyPlugin.NestedNameSpace.FugaFugaDataInNestedNameSpace.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MyPlugin.NestedNameSpace.FugaFugaDataInNestedNameSpace.html",
-          "hash": "a9T0Bp1jV6Dr/WIFqUdygw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MyPlugin.NestedNameSpace.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MyPlugin.NestedNameSpace.html",
-          "hash": "SaH1+Ifcf9EUKK9jCPiaDQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/MyPlugin.PiyoType.yml",
       "output": {
         ".html": {
@@ -69,7 +33,55 @@
       "output": {
         ".html": {
           "relative_path": "api/MyPlugin.html",
-          "hash": "IEh3aENn77g8uY4E6uoixw=="
+          "hash": "Ev46PzSl3uQvnbxOMklyjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyPlugin2.FugaDataInOtherNameSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyPlugin2.FugaDataInOtherNameSpace.html",
+          "hash": "RvOJnx+ri/SD+wX2dVDa+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyPlugin2.NestedNameSpace.FugaDataInNestedNameSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyPlugin2.NestedNameSpace.FugaDataInNestedNameSpace.html",
+          "hash": "+6nwAhINj3LTCreLIhGqTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyPlugin2.NestedNameSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyPlugin2.NestedNameSpace.html",
+          "hash": "c0ym0ndqq5Rycad5rNjgzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyPlugin2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyPlugin2.html",
+          "hash": "IfWqlwvWrn5kzrklwLz9/A=="
         }
       },
       "is_incremental": false,
@@ -117,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "X40o2lXlm3VLDejr9vAd5Q=="
+          "hash": "wDEtXapGi+UXZqWYdZR6yA=="
         }
       },
       "is_incremental": false,
@@ -181,11 +193,12 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 8,
-          "skipped_file_count": 2
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
@@ -193,12 +206,11 @@
           "total_file_count": 3,
           "skipped_file_count": 3
         },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 9,
+          "skipped_file_count": 4
         }
       }
     },
